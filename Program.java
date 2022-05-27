@@ -5,4 +5,10 @@ public class HelloDate{
 		System.out.println("Welcome to Jenkins");
 
 	}
+
+	public static void print(int x){
+		for(int i=1; i<=10; i++){
+			System.out.print(x+"x"+i);
+		}
+	}
 }
